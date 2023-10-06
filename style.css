@@ -1,0 +1,81 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos para o cabeçalho */
+h1.text-center {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o formulário */
+.form-group {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para o botão de calcular */
+.btn-secondary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 348px;
+}
+
+.btn-secondary:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o resultado */
+.resultado {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #00a000;
+}
+
+/* Cores para os diferentes resultados */
+.magreza {
+    color: #f0ad4e;
+}
+
+.normal {
+    color: #5bc0de;
+}
+
+.sobrepeso {
+    color: #ffc107;
+}
+
+.obesidade {
+    color: #d9534f;
+}
